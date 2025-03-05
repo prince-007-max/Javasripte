@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+}
+
+#myh1{
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    padding: 30px;
+    border-radius: 50px;
+    background-color: white;
+}
+#display{
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: blueviolet;
+    text-shadow: seagreen 13px;
+    margin-bottom: 13px;
+}
+
+#control button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+#start{
+    background-color: blue;
+}
+#start:hover{
+    background-color: black;
+}
+
+#stop{
+    background-color: green;
+}
+#stop:hover{
+    background-color: black;
+}
+
+#reset{
+    background-color: red;
+}
+#start:hover{
+    background-color: black;
+}
